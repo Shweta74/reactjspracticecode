@@ -1,0 +1,29 @@
+cdn link src use-: we are import react code into our project.
+
+crossorigin-:
+
+
+react.development.js-: core file of react 
+
+
+react-dom.development-:useful for dom manupulation or it is bridge to connect react to dom
+
+two files are created in react beacuse react used in multiple places like browser or native.
+
+creating a element is a core thing of react.
+
+react element is javascript object and render method is actually converting the object into h1 tag.
+
+const heading = React.createElement("h1",
+ {we can mention attribute inside this object}, 
+"hello");
+
+
+creating a root and render something inside it thats is the job of reactdom.
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(heading);
+
+
+react is a library so it can work on specific part also like only add react in the header section.
